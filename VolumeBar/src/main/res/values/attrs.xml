@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义控件属性读取 在构造方法-->
+    <declare-styleable name="DyzRoundProgressBar">
+        <!--底部颜色-->
+        <attr name="rn_color_bg" format="color"/>
+        <!--进度颜色-->
+        <attr name="rn_color_progress" format="color"/>
+        <!--进度条宽度-->
+        <attr name="rn_width_stroke" format="float"/>
+        <!--绘圆与边界距离 范围 0f+ 不宜太大，最佳显示效果即可 -->
+        <attr name="rn_round" format="float"/>
+        <!--进度条初始进度  -->
+        <attr name="rn_progress" format="float"/>
+        <!--进度条总进度  -->
+        <attr name="rn_max" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="DyzVolumeBar">
+        <!--底部颜色-->
+        <attr name="dbv_color_bg" format="color"/>
+        <!--进度颜色-->
+        <attr name="dbv_color_progress" format="color"/>
+        <!--进度条宽度-->
+        <attr name="dbv_width_stroke" format="float"/>
+        <!--绘圆与边界距离 范围 0f+ 不宜太大，最佳显示效果即可 -->
+        <attr name="dbv_round" format="float"/>
+        <!--进度条初始进度  -->
+        <attr name="dbv_progress" format="float"/>
+        <!--进度条总进度  -->
+        <attr name="dbv_max" format="integer"/>
+    </declare-styleable>
+
+</resources>
